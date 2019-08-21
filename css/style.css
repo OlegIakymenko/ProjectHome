@@ -1,0 +1,643 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.container {
+	max-width: 1030px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.header {
+	height:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.header_inner {
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 10px solid #f4d4a5;
+	padding-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 160px;
+}
+.header_name {
+	padding-top: 23px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #bf4200;
+}
+.phone {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+}
+.header_title {
+	text-transform: uppercase;
+	color: #1fad26;
+	font-weight: 700;
+	padding: 0px 5px;
+	font-size: 50px;
+
+}
+.header_sale {
+	margin-top: 10px;
+	
+}
+.header_sale img {
+	width: 252px;
+	height: 252px;
+}
+.main {
+	padding-top: 60px;
+}
+.main_title {
+	margin-bottom: 60px;
+	font-size: 41px;
+	color: #d07a2d;
+}
+.main_text {
+	font-size: 29px;
+}
+.main_img {
+	padding: 90px 0;
+}
+.project_name {
+	font-weight: bold;
+	font-size: 32px;	
+	text-align: center;
+}
+.project_size, .project_area {
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+.project_price {font-size: 25px;
+	font-weight: 400;
+	color:#17753b;
+	margin-bottom: 30px;
+}
+.download {height: 305px;
+	width: 100%;
+	background-color: #f1dfbc;
+	text-align: center;
+}
+.download img {
+	margin-top: 40px;
+}
+.download_link {
+	border: 5px solid #effd15;
+	background-color: #17753b;
+	padding-top:20px;
+	width:590px;
+	margin:0 auto;
+	height:85px;
+}
+.download_link a {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: underline;
+	font-size:32px;
+}
+
+.project_title {
+	margin-bottom:110px;
+	font-size: 41px;
+	font-weight: 700;
+	color: #d07a2d;
+}
+.gallery_title {
+	text-transform: uppercase;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-weight: 700;
+	color:#d07a2d;
+	font-size: 41px;
+}
+.gallery_text {
+	padding-bottom: 50px;
+	font-size: 25px;
+}
+.gallery_inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery_inner img {
+	display: block;
+}
+.main, .footer {
+	text-align: center;
+}
+.footer .phone {
+	font-weight: 700;
+}
+.footer .footer_email {
+	padding-top: 40px;
+	padding-bottom: 150px;
+	color:#2f8bc5;
+	text-decoration: underline;
+	font-size:30px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+}
+@media all and (min-width: 320px) { 
+.header {
+	padding-top: 100px;
+	padding-bottom:30px;
+}
+.header_inner {
+	width: 100px;
+	height: 100px;
+	padding-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.header_inner img {
+	display: none;
+}
+.header_name {
+	padding-top: 15px;
+	font-size: 0.54em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.main_title {
+	margin-bottom: 60px;
+	font-size: 33px;
+	color: #d07a2d;
+}
+.header_inner .phone {display: none;
+}
+.phone {
+	font-size: 2em;
+}
+.header_title {
+	font-size: 8px;
+}
+.project_name, .project_size, .project_area, .project_price {
+	font-size: 1.2em;
+}
+.project_images>img {
+	width: 300px;
+	height:250px;
+}
+.header_sale {
+	margin-top: 10px;
+	
+}
+.download {height: 200px;
+	width: 100%;
+	background-color: #f1dfbc;
+	text-align: center;
+}
+.download img {
+	margin-top: 5px;
+}
+.download_link {
+	padding-top:2px;
+	width:250px;
+	margin:0 auto;
+	height:35px;
+}
+.download_link a {
+	text-align: center;
+	font-size:10px;
+}
+.gallery_inner img {
+	width: 230px;
+	height: 230px;
+}
+}
+@media all and (min-width: 400px) { 
+.header {
+	padding-top: 50px;
+	padding-bottom:40px;
+}
+.header_inner {
+	width: 110px;
+	height: 110px;
+	padding-top: 5px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+.header_inner>img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 0.54em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.header_inner .phone {display: none;
+}
+.phone {
+	font-size: 2em;
+}
+.header_title {
+	font-size: 8px;
+}
+.project_name, .project_size, .project_area, .project_price {
+	font-size: 1.2em;
+}
+.project_images>img {
+	width: 100%;
+	height:100%;
+}
+.header_sale {
+	margin-top: 10px;
+	
+}
+.download {height: 200px;
+	width: 100%;
+	background-color: #f1dfbc;
+	text-align: center;
+}
+.download img {
+	margin-top: 5px;
+}
+.download_link {
+	padding-top:2px;
+	width:250px;
+	margin:0 auto;
+	height:35px;
+}
+.download_link a {
+	text-align: center;
+	font-size:0.8em;
+}
+}
+@media all and (min-width: 500px) { 
+.header {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.header_inner {
+	width: 150px;
+	height: 150px;
+	padding-top: 5px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 0.54em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.header_inner .phone {display: inline;
+	font-size: 0.6em;
+}
+.phone {
+	font-size: 2em;
+}
+.header_title {
+	font-size: 13px;
+}
+.project_name, .project_size, .project_area, .project_price {
+	font-size: 1.2em;
+}
+.project_images>img {
+	width: 100%;
+	height:100%;
+}
+.header_sale {
+	margin-top: 2px;
+}
+.header_sale img {
+	width: 70px;
+	height:70px;
+	
+}
+.download {height: 200px;
+	width: 100%;
+	background-color: #f1dfbc;
+	text-align: center;
+}
+.download img {
+	margin-top: 5px;
+}
+.download_link {
+	padding-top:2px;
+	width:250px;
+	margin:0 auto;
+	height:35px;
+}
+.download_link a {
+	text-align: center;
+	font-size:0.8em;
+}
+@media all and (min-width: 600px) { 
+.header {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.header_inner {
+	width: 200px;
+	height: 200px;
+	padding-top: 5px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 0.8em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.header_inner .phone {display: inline;
+	font-size: 0.8em;
+}
+.phone {
+	font-size: 2em;
+}
+.header_title {
+	font-size: 1.3em;
+}
+.header_sale {
+	margin-top: 2px;
+}
+.header_sale img {
+	width: 100px;
+	height:100px;
+	
+}
+.project_name, .project_size, .project_area, .project_price {
+	font-size: 1.2em;
+}
+.project_images>img {
+	width: 100%;
+	height:100%;
+}
+
+.download {height: 200px;
+	width: 100%;
+	background-color: #f1dfbc;
+	text-align: center;
+}
+.download img {
+	margin-top: 5px;
+}
+.download_link {
+	padding-top:2px;
+	width:250px;
+	margin:0 auto;
+	height:35px;
+}
+.download_link a {
+	text-align: center;
+	font-size:0.8em;
+}
+@media all and (min-width: 760px) { 
+.header {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.header_inner {
+	width: 13em;
+	height: 13em;
+	padding-top: 5px;
+	margin-left: 55px;
+	margin-bottom: 30px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 1.3em;
+}
+.header_sale {
+	margin-top: 2px;
+}
+.header_sale img {
+	width: 105px;
+	height:105px;
+	
+}
+@media all and (min-width: 815px) { 
+.header_inner {
+	width: 14.5em;
+	height: 14.5em;
+	padding-top: 5px;
+	margin-left: 55px;
+	margin-bottom: 30px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 1.55em;
+}
+.header_sale {
+	margin-top: 5px;
+}
+.header_sale img {
+	width: 110px;
+	height:110px;
+	
+}
+@media all and (min-width: 910px) { 
+.header_inner {
+	width: 16.5em;
+	height: 16.5em;
+	padding-top: 5px;
+	margin-left: 55px;
+	margin-bottom: 30px;
+}
+.header_inner .phone {display: inline;
+	font-size: 1.3em;
+}
+
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 1.5em;
+	margin-bottom: 0.2em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 1.8em;
+}
+.header_sale {
+	margin-top: 15px;
+}
+.header_sale img {
+	width: 135px;
+	height:135px;
+}
+@media all and (min-width: 1000px) { 
+.header_inner {
+	width: 280px;
+	height: 280px;
+	padding-top: 5px;
+	margin-left: 75px;
+	margin-bottom: 30px;
+}
+.header_inner .phone {display: inline;
+	font-size: 1.4em;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 1.5em;
+	margin-bottom: 0.2em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 1.9em;
+}
+.header_sale img {
+	width: 150px;
+	height:150px;
+}
+@media all and (min-width: 1120px) { 
+.header_inner {
+	width: 310px;
+	height: 310px;
+	padding-top: 5px;
+	margin-left: 85px;
+	margin-bottom: 30px;
+}
+.header_inner .phone {display: inline;
+	font-size: 1.6em;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 1.7em;
+	margin-bottom: 0.2em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 2.1em;
+}
+.header_sale img {
+	width: 170px;
+	height:170px;
+}
+@media all and (min-width: 1240px) { 
+.header_inner {
+	width: 340px;
+	height: 340px;
+	padding-top: 5px;
+	margin-left: 95px;
+	margin-bottom: 30px;
+}
+.header_inner .phone {display: inline;
+	font-size: 1.8em;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 2px;
+	font-size: 1.7em;
+	margin-bottom: 0.2em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 35px;
+}
+.header_sale img {
+	width: 180px;
+	height:180px;
+}
+@media all and (min-width: 1367px) { 
+.header_inner {
+	width: 410px;
+	height: 410px;
+	padding-top: 15px;
+	margin-top:100px;
+	margin-left: 50px;
+	margin-bottom: 160px;
+}
+.header_inner .phone {display: inline;
+	font-size: 30px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 5px;
+	font-size: 2.2em;
+	margin-bottom: 0.3em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 45px;
+}
+.header_sale img {
+	width: 225px;
+	height:225px;
+}
+@media all and (min-width: 1467px) { 
+.header_inner {
+	width: 500px;
+	height: 500px;
+	padding-top: 15px;
+	margin-top:0px;
+	margin-left: 90px;
+	margin-bottom: 160px;
+}
+.header_inner .phone {display: inline;
+	font-size: 33px;
+}
+.header_inner img {
+	display: inline;
+}
+.header_name {
+	padding-top: 5px;
+	font-size: 2.35em;
+	margin-bottom: 0.3em;
+	color: #bf4200;
+}
+.header_title {
+	font-size: 55px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.header_sale img {
+	width: 245px;
+	height:245px;
+}
+}
